@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero {
+    padding: 1rem 2rem;
+    background-image: url("../images/top_cprner.png"), url("../images/ellipse_1.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 340px, 40px;
+    background-position: left 0px top 0px, left 1330px top 446px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+.navLeft{
+    width: 30%;
+}
+.denLogo{
+    line-height: 1;
+    color: white;
+}
+.logoMain{
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.navRight {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.hamburgerIcon div {
+    margin: 4px 0;
+}
+.firstLine, .thirdLine {
+    width: 30px;
+    height: 3px;
+    background-color: #fb6818;
+}
+.secondLine {
+    translate: 15px;
+    width: 15px;
+    height: 3px;
+    background-color: #fb6818;
+}
+.heroContent {
+    padding: 4rem 2rem 2rem 8rem;
+    display: flex;
+  
+}
+.heroLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heroFirstLine {
+    font-size: 1.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heroSecondLine {
+    font-size: 2.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 1;
+}
+.heroParagraph {
+    padding: 2rem 0;
+    width: 88%;
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.3;
+}
+.heroButtons button {
+    font-family: "Poppins", sans-serif;
+    padding: 0.5rem 2rem;
+    background-color: white;
+    margin-right: 1rem;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.readMoreBtn {
+  border: 2px solid #248261;
+  color: #248261;
+}
+.heroRight img {
+    width: 580px;
+}
+.circleSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+.circle {
+    border: 2px solid;
+    border-radius: 50%;
+    height: 0.8rem;
+    width: 0.8rem;
+    margin: 0 2px;
+}
+.circleGreen {
+    border-color: #248261;
+}
+.circleOrange {
+    border-color: #fb6818;
+    height: 1rem;
+    width: 1rem;
+    vertical-align: top;
+}
+.heroLine {
+    width: 90%;
+    border: 1px solid #afafaf;
+    margin-left: 3rem;
+}
+.servicesContent {
+    padding: 2rem 8rem;
+}
+.servicesHeading {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+.servicesLineContainer {
+    display: flex;
+    justify-content: center;
+}
+.servicesLine {
+    border: 2px solid #248261;
+    width: 5rem;
+    border-radius: 4px;
+    height: 0.35rem;
+    background-color: #248261;
+}
+.servicesList {
+    padding-top: 1rem;
+}
+.servicesListItem {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0.8rem;
+    box-shadow: 0.5rem 0.5rem 60px #f0f0f0;
+    margin: 1.5rem 0;
+}
+.serviceImage {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serviceImage img {
+    height: 80px
+}
+.bus img{
+    height: 70px;
+}
+.meals img {
+   height: 30px;
+}
+.serviceText {
+    padding: 0.5rem 3rem;
+}
+.serviceTextHeading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.serviceTextContent {
+    padding-top: 0.5rem;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+}
+.servicesBtnContainer {
+    padding: 1rem 0;
+    text-align: center;
+}
+.greenBtn {
+    font-family: "Poppins", sans-serif;
+    background-color: #248261;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+.serviceBtn {
+    padding: 0.5rem 2rem;
+}
