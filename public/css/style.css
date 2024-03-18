@@ -547,6 +547,9 @@ button:hover {
     .phone {
         display: block;
     }
+    .serviceImagePhone {
+        display: block;
+    }
     .hero {
         padding: 1rem 1rem;
         background-image: none;
