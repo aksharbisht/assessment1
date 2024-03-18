@@ -7,6 +7,9 @@
 .phone {
     display: none;
 }
+.serviceImagePhone {
+    display: none;
+}
 button:hover {
     cursor: pointer;
     transform: scale(1.25);
