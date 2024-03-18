@@ -7,10 +7,18 @@
     <link rel="stylesheet" href="public/css/style.css">
 <body>
     <div class="container">
+        <input type="checkbox" id="toggle">
+        <aside class="leftbar">
+            <label for="toggle" class="exit">X</label>
+            <p>Call +01 234567890</p>
+            <p>demo@gmail.com</p>
+        </aside>
         <!-- hero section -->
         <div class="hero">
             <div class="navbar">
                 <div class="navLeft">
+                    <label for="toggle" class="button">&#9776;
+                    </label>
                 <div class="denLogo">
                     <div class="logoMain">DEN</div>
                     <div class="logoSub">School</div>
@@ -30,13 +38,16 @@
                 <div class="heroLeft">
                     <div class="heroFirstLine">We Are Making Every</div>
                     <div class="heroSecondLine">Child's World Better</div>
+                    <div class="heroRight phone">
+                        <img src="public/images/blackboard.png" alt="">
+                    </div>
                     <div class="heroParagraph">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</div>
                     <div class="heroButtons">
                         <button class="readMoreBtn">READ MORE</button>
                         <button class="contactBtn">CONTACT US</button>
                     </div>
                 </div>
-                <div class="heroRight">
+                <div class="heroRight pc">
                     <img src="public/images/blackboard.png" alt="">
                 </div>
             </div>
@@ -57,56 +68,74 @@
             </div>
             <div class="servicesList">
                 <div class="servicesListItem">
-                    <div class="serviceImage">
+                    <div class="serviceImage pc">
                         <img src="public/images/facilities.png" alt="">
                     </div>
                     <div class="serviceText">
                         <div class="serviceTextHeading">GREAT FACILITIES</div>
+                        <div class="serviceImage phone">
+                            <img src="public/images/facilities.png" alt="">
+                        </div>
                         <div class="serviceTextContent">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-o</div>
                     </div>
                 </div>
                 <div class="servicesListItem">
-                    <div class="serviceImage">
+                    <div class="serviceImage pc">
                         <img src="public/images/classes.png" alt="">
                     </div>
                     <div class="serviceText">
                         <div class="serviceTextHeading">VARIED CLASSES</div>
+                        <div class="serviceImage phone">
+                            <img src="public/images/classes.png" alt="">
+                        </div>
                         <div class="serviceTextContent">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-o</div>
                     </div>
                 </div>
                 <div class="servicesListItem">
-                    <div class="serviceImage bus">
+                    <div class="serviceImage bus pc">
                         <img src="public/images/bus.png" alt="">
                     </div>
                     <div class="serviceText">
                         <div class="serviceTextHeading">SCHOOL BUS</div>
+                        <div class="serviceImage bus phone">
+                            <img src="public/images/bus.png" alt="">
+                        </div>
                         <div class="serviceTextContent">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-o</div>
                     </div>
                 </div>
                 <div class="servicesListItem">
-                    <div class="serviceImage">
+                    <div class="serviceImage pc">
                         <img src="public/images/labs.png" alt="">
                     </div>
                     <div class="serviceText">
                         <div class="serviceTextHeading">SCIENCE LABS</div>
+                        <div class="serviceImage phone">
+                            <img src="public/images/labs.png" alt="">
+                        </div>
                         <div class="serviceTextContent">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-o</div>
                     </div>
                 </div>
                 <div class="servicesListItem">
-                    <div class="serviceImage meals">
+                    <div class="serviceImage meals pc">
                         <img src="public/images/meal.png" alt="">
                     </div>
                     <div class="serviceText">
                         <div class="serviceTextHeading">DELICIOUS MEALS</div>
+                        <div class="serviceImage meals phone">
+                            <img src="public/images/meal.png" alt="">
+                        </div>
                         <div class="serviceTextContent">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-o</div>
                     </div>
                 </div>
                 <div class="servicesListItem">
-                    <div class="serviceImage">
+                    <div class="serviceImage pc">
                         <img src="public/images/games.png" alt="">
                     </div>
                     <div class="serviceText">
                         <div class="serviceTextHeading">FUNNY GAMES</div>
+                        <div class="serviceImage phone">
+                            <img src="public/images/games.png" alt="">
+                        </div>
                         <div class="serviceTextContent">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-o</div>
                     </div>
                 </div>
@@ -142,30 +171,33 @@
                 <div class="whyUsSubHeading">It is a long established fact that a reader will be distracted by the readable content of a page</div>
                 <div class="whyItems">
                     <div class="pureWater">
+                        <div class="waterHeading phone">PURE WATER</div>
                         <div class="waterImage">
                             <img src="public/images/water.png" alt="">
                         </div>
-                        <div class="waterHeading">PURE WATER</div>
+                        <div class="waterHeading pc">PURE WATER</div>
                         <div class="waterSub">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by i</div>
                         <div class="whyBtn">
                             <button class="greenBtn">Read More</button>
                         </div>
                     </div>
                     <div class="garden">
+                        <div class="gardenHeading phone">GARDEN</div>
                         <div class="gardenImage">
                             <img src="public/images/garden.png" alt="">
                         </div>
-                        <div class="gardenHeading">GARDEN</div>
+                        <div class="gardenHeading pc">GARDEN</div>
                         <div class="gardenSub">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by i</div>
                         <div class="whyBtn">
                             <button class="greenBtn">Read More</button>
                         </div>
                     </div>
                     <div class="games">
+                        <div class="gamesHeading phone">GAMES</div>
                         <div class="gameImage">
                             <img src="public/images/games2.png" alt="">
                         </div>
-                        <div class="gamesHeading">GAMES</div>
+                        <div class="gamesHeading pc">GAMES</div>
                         <div class="gamesSub">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by i</div>
                         <div class="whyBtn">
                             <button class="greenBtn">Read More</button>
@@ -184,24 +216,27 @@
                 <div class="blogSub">It is a long established fact that a reader will be distracted by the readable content of a page</div>
                 <div class="blogGallery">
                     <div class="gallery galleryFirst">
+                        <div class="galHeading phone">Distracted by the readable content of a</div>
                         <div class="galImage">
                         <img src="public/images/gallery1.jpg" alt="">
                     </div>
-                        <div class="galHeading">Distracted by the readable content of a</div>
+                        <div class="galHeading pc">Distracted by the readable content of a</div>
                         <div class="galSub">It is a long established fact that a reader will be distracted by the readable content of a page</div>
                     </div>
                     <div class="gallery gallerySecond">
                         <div class="galHeading">Distracted by the readable content of a</div>
-                        <div class="galSub">It is a long established fact that a reader will be distracted by the readable content of a page</div>
+                        <div class="galSub pc">It is a long established fact that a reader will be distracted by the readable content of a page</div>
                         <div class="galImage">
                             <img src="public/images/gallery2.jpg" alt="">
                         </div>
+                        <div class="galSub phone">It is a long established fact that a reader will be distracted by the readable content of a page</div>
                     </div>
                     <div class="gallery galleryThird">
+                        <div class="galHeading phone">Distracted by the readable content of a</div>
                         <div class="galImage">
                             <img src="public/images/gallery3.jpg" alt="">
                         </div>
-                            <div class="galHeading">Distracted by the readable content of a</div>
+                            <div class="galHeading pc">Distracted by the readable content of a</div>
                             <div class="galSub">It is a long established fact that a reader will be distracted by the readable content of a page</div>
                     </div>
                 </div>
@@ -264,6 +299,7 @@
                     <button>SUBSCRIBE</button>
                 </div>
             </div>
+            </div>
             <div class="footer">
                 <div class="footerContent">
                     <div class="footerLeft">
@@ -305,7 +341,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         <!-- Copyright section -->
         <div class="copyright">
             © 2020 All Rights Reserved. Free HTML Templates

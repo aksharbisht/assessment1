@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.phone {
+    display: none;
+}
 button:hover {
     cursor: pointer;
     transform: scale(1.25);
@@ -36,6 +39,15 @@ button:hover {
     display: flex;
     justify-content: space-between;
     width: 40%;
+}
+#toggle {
+    display: none;
+}
+.leftbar {
+    display: none;
+}
+.button {
+    display: none;
 }
 .hamburgerIcon div {
     margin: 4px 0;
@@ -486,6 +498,7 @@ button:hover {
 .footer {
     background-color: black;
     font-family: "Poppins", sans-serif;
+    color: white;
 }
 .footerContent {
     padding: 4rem 8rem;
@@ -521,4 +534,209 @@ button:hover {
     font-family: "Poppins", sans-serif;
     padding: 0.5rem 0;
     text-align: center;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    .pc {
+        display: none;
+    }
+    .phone {
+        display: block;
+    }
+    .hero {
+        padding: 1rem 1rem;
+        background-image: none;
+    }
+    #toggle {
+        display: none;
+    }
+    .navRight {
+        display: none;
+    }
+    .leftbar {
+        display: block;
+    }
+
+    .button {
+        display: block;
+        font-size: 23px;
+    }
+    .exit {
+        cursor: pointer;
+        font-weight: 800;
+        color: white;
+        float: right;
+        padding: 1.1rem;
+    }
+    .leftbar {
+        position: absolute;
+        width: 60%;
+        height: 100%;
+        background-color: #fb6818;
+        box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+        left: -60%;
+        z-index: 3;
+        transition: left 0.5s ease-in-out;
+    }
+     
+    .leftbar p {
+        color: white;
+        padding: 10% 5%;
+        font-family: "Poppins", sans-serif;
+    }
+    #toggle:checked ~ .leftbar {
+        left: 0;
+    }
+    .heroContent {
+        flex-direction: column;
+        padding: 1rem 1rem;
+    }
+    .heroLeft {
+        width: 100%;
+    }
+    .heroRight img {
+        width: 100%;
+    }
+    .heroFirstLine {
+        font-size: 1.8rem;
+    }
+    .heroSecondLine {
+        font-size: 1.7rem;
+        padding-bottom: 1rem;
+    }
+    .heroParagraph {
+        width: 100%;
+    }
+    .heroButtons {
+        text-align: center;
+    }
+    .heroLine {
+        display: none;
+    }
+    .readMoreBtn {
+       width: 9.7rem;
+       margin-bottom: 1rem;
+    }
+    .servicesContent {
+        padding: 1rem 1rem;
+    }
+    .servicesListItem {
+        flex-direction: column;
+        /* justify-content: center; */
+        text-align: center;
+    }
+    .serviceText {
+        padding: 0;
+        text-align: centers;
+    }
+    .serviceImage {
+       width: 100%;
+       margin: auto;
+       padding-top: 1rem;
+    }
+    .meals img {
+        height: 4rem;
+    }
+    .serviceTextContent {
+        text-align: justify;
+    }
+    .aboutContent {
+        flex-direction: column;
+        padding: 1rem 1rem;
+    }
+    .aboutLeft {
+        width: 100%;
+    }
+    .aboutRight {
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+    .aboutHeading {
+        font-size: 1.9rem;
+    }
+    .aboutText {
+        width: 100%;
+        text-align: justify;
+    }
+    .aboutButton {
+        text-align: center;
+    }
+    .whyItems {
+        flex-direction: column;
+    }
+    .pureWater, .garden, .games {
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .waterSub, .gamesSub, .gardenSub {
+        width: 100%;
+        text-align: justify;
+        padding-top: 1rem;
+    }
+    .blogSub {
+        text-align: justify;
+    }
+    .blogGallery {
+        flex-direction: column;
+    }
+    .galImage img {
+        width: 100%;
+    }
+    .galHeading {
+        padding-bottom: 1rem;
+    }
+    .galSub {
+        width: 100%;
+        text-align: justify;
+    }
+    .testimonialContent {
+        flex-direction: column;
+        padding: 1rem 1rem 3rem 1rem;
+    }
+    .testimonialSub {
+        width: 100%;
+        text-align: justify;
+        padding-bottom: 3rem;
+    }
+    .hannery, .channery {
+        width: 100%;
+        padding: 1rem 0;
+    }
+    .review {
+        width: 100%;
+        text-align: justify;
+    }
+    .testimonialButtons {
+        display: none;
+    }
+    .whyUsContent {
+        padding: 1rem 1rem;
+    }
+    .blogContent {
+        padding: 1rem 1rem;
+    }
+    .contact {
+        display: none;
+    }
+
+    .testimonialRight {
+        flex-direction: column;
+    }
+    .footerContent {
+        padding: 1rem 1rem;
+        flex-direction: column;
+    }
+    .footerLeft {
+        width: 100%;
+    }
+    .footerRight {
+        width: 100%;
+    }
+    .footerSub {
+        text-align: justify;
+    }
+    .information {
+       
+    }
 }
