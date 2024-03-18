@@ -607,6 +607,7 @@ button:hover {
     }
     .heroParagraph {
         width: 100%;
+        text-align: justify;
     }
     .heroButtons {
         text-align: center;
